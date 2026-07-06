@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk Icon Sosmed -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap');
+        .font-heading { font-family: 'Saira Extra Condensed', sans-serif; }
+        body { font-family: 'Open Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-700 antialiased">
+
+    <!-- SIDEBAR NAVIGASI (Kiri) - Diubah ke warna Biru Modern (#2563EB / #1E40AF) -->
+    <nav class="fixed top-0 left-0 h-screen w-64 bg-[#1E40AF] flex flex-col justify-center items-center p-4 text-center z-50 hidden md:flex">
+        <!-- Foto Profil -->
+        <div class="mb-6">
+            <img class="w-36 h-36 rounded-full border-8 border-[#3B82F6] object-cover" src="Bara.jpeg" alt="Foto Profil">
+        </div>
+        <!-- Menu Navigasi -->
+        <div class="flex flex-col space-y-4 font-heading text-xl tracking-wider text-white/70 uppercase">
+            <a href="#about" class="hover:text-white transition duration-200">About</a>
+            <a href="#experience" class="hover:text-white transition duration-200">Experience</a>
+            <a href="#education" class="hover:text-white transition duration-200">Education</a>
+            <a href="#skills" class="hover:text-white transition duration-200">Skills</a>
+            <a href="#interests" class="hover:text-white transition duration-200">Interests</a>
+            <a href="#awards" class="hover:text-white transition duration-200">Awards</a>
+        </div>
+    </nav>
+
+    <!-- KONTEN UTAMA (Kanan) -->
+    <main class="md:ml-64 p-8 md:p-16 max-w-4xl min-h-screen flex flex-col justify-center">
+        
+        <!-- SECTION: ABOUT -->
+        <section id="about" class="py-12 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h1 class="font-heading text-7xl font-bold uppercase leading-none text-gray-900 mb-2">
+                Reifan <span class="text-[#2563EB]">Syahlevi</span>
+            </h1>
+            <div class="font-heading text-lg tracking-widest text-gray-500 uppercase mb-6">
+                Professional muda · Indonesia, 60922 · (+62)85147162029 · 
+                <a href="mailto:name@email.com" class="text-[#2563EB] hover:underline">syahlevireifan@gmail.com</a>
+            </div>
+            <p class="text-gray-600 leading-relaxed max-w-2xl text-lg mb-8">
+                Individu yang sangat termotivasi dan adaptif dengan kombinasi kuat antara keterampilan komunikasi, manajemen tim, dan literasi teknis. Terbiasa mengambil inisiatif dalam peran kepemimpinan, mengkoordinasikan banyak pihak, dan memberikan pelayanan prima (service excellence). Memiliki kemampuan pemecahan masalah yang baik, baik dalam menangani isu teknis (perangkat keras dan web) maupun merespons dinamika di lapangan. Siap untuk langsung berkontribusi dalam lingkungan kerja yang serba cepat, baik di sektor administrasi, layanan pelanggan, maupun operasional.
+            </p>
+            <!-- Social Media Icons -->
+            <div class="flex space-x-4">
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-700 text-white flex items-center justify-center hover:bg-[#2563EB] transition duration-300"><i class="fab fa-linkedin-in text-xl"></i></a>
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-700 text-white flex items-center justify-center hover:bg-[#2563EB] transition duration-300"><i class="fab fa-github text-xl"></i></a>
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-700 text-white flex items-center justify-center hover:bg-[#2563EB] transition duration-300"><i class="fab fa-twitter text-xl"></i></a>
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-700 text-white flex items-center justify-center hover:bg-[#2563EB] transition duration-300"><i class="fab fa-facebook-f text-xl"></i></a>
+            </div>
+        </section>
+
+        <!-- SECTION: EXPERIENCE -->
+        <section id="experience" class="py-16 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-10">Pengalaman
+
+            </h2>
+            
+            <div class="flex flex-col md:flex-row justify-between mb-12">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold uppercase text-gray-800">Kepemimpinan dan koordinasi</h3>
+                    <div class="font-heading text-lg tracking-wider text-gray-500 uppercase mb-3">Chief of class</div>
+                    <p class="text-gray-600">Mengemban tanggung jawab organisasional dengan mengelola rekan kerja/tim untuk mencapai target tugas bersama. sukses merancang jalannya acara diskusi panel secara tepat waktu dan sesuai protokol</p>
+                </div>
+                <div class="text-[#2563EB] font-semibold md:text-right whitespace-nowrap mt-2 md:mt-0"></div>
+
+            </div>
+            <div class="flex flex-col md:flex-row justify-between">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold uppercase text-gray-800">penyampaian presentasi analitis</h3>
+                    <div class="font-heading text-lg tracking-wider text-gray-500 uppercase mb-3">Akademis</div>
+                    <p class="text-gray-600">Mampu mengolah data  dan konsep rumit menjadi materi presentasi yang ringkas dan tepat sasaran untuk audiens yg beragam</p>
+                </div>
+                <div class="text-[#2563EB] font-semibold md:text-right whitespace-nowrap mt-2 md:mt-0"></div>
+            </div>
+        </section>
+
+        <!-- SECTION: EDUCATION -->
+        <section id="education" class="py-16 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-10">Education</h2>
+            <div class="flex flex-col md:flex-row justify-between">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold uppercase text-gray-800">Universitas Mitra Bangsa</h3>
+                    <div class="font-heading text-lg tracking-wider text-gray-500 uppercase">S1 manajemen
+                    <p class="text-gray-600 mb-2">Management and bussiness Development</p>
+                    <p class="text-gray-500 italic"></p>
+                </div>
+                <div class="text-[#2563EB] font-semibold md:text-right whitespace-nowrap mt-2 md:mt-0">September 2025 - present</div>
+            </div>
+        </section>
+
+        <!-- SECTION: SKILLS -->
+        <section id="skills" class="py-16 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-6">Skills</h2>
+            <div class="font-heading text-lg tracking-wider text-gray-500 uppercase mb-4">Programming Languages & Tools</div>
+            <div class="flex flex-wrap gap-6 text-4xl text-gray-600 mb-8">
+                <i class="fab fa-html5 hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-css3-alt hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-js-square hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-react hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-node-js hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-sass hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-wordpress hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-npm hover:text-[#2563EB] transition"></i>
+            </div>
+        </section>
+
+        <!-- SECTION: INTERESTS -->
+        <section id="interests" class="py-16 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-6">Ketertarikan</h2>
+            <p class="text-gray-600 leading-relaxed mb-4">Di luar rutinitas profesional, Anda akan menemukan saya sedang mengulik perkembangan teknologi terbaru (terutama terkait perangkat keras dan pengembangan web), menganalisis strategi pertandingan sepak bola, atau mengikuti jalannya balapan Formula 1. Saya selalu terpesona oleh sistem yang bekerja secara efisien—baik itu susunan sistem komputer yang rapi, formasi tim di lapangan hijau, maupun keandalan mesin di sirkuit balap. Minat ini melatih saya untuk berpikir taktis, menghargai proses penyelesaian masalah (troubleshooting), dan menyadari bahwa kesuksesan besar selalu berawal dari koordinasi tim yang solid."</p>
+        </section>
+
+        <!-- SECTION: AWARDS -->
+        <section id="awards" class="py-16 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-6">Awards & Certifications</h2>
+            <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center"><i class="fas fa-trophy text-yellow-500 mr-3"></i> Google Analytics Certified Developer</li>
+                <li class="flex items-center"><i class="fas fa-trophy text-yellow-500 mr-3"></i> Mobile Web Specialist - Google Certification</li>
+                <li class="flex items-center"><i class="fas fa-trophy text-yellow-500 mr-3"></i> 1<sup>st</sup> Place - University of Colorado Boulder - Adobe Hackathon 2008</li>
+            </ul>
+        </section>
+
+    </main>
+
+</body>
+</html>
